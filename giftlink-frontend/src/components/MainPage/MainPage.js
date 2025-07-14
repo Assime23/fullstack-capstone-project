@@ -65,8 +65,9 @@ function MainPage() {
                                 </p>
 
                                 {/* // Task 6: Display gift image or placeholder */}
-                                {/* // Write your code below this line */}
-                                
+                                <p className="card-text">
+                                    <small className="text-muted">Listed on: {formatDate(gift.timestamp)}</small>
+                                </p>                                
 
                                 <button onClick={() => goToDetailsPage(gift.id)} className="btn btn-primary">
                                     View Details
